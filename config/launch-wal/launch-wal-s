@@ -1,0 +1,9 @@
+#!/bin/sh
+wal -i "/${HOME}/Pictures/Wallpapers" -t
+
+sleep 0.1
+pkill polybar &&
+sleep 0.1
+wal -i "$(< "${HOME}/.cache/wal/wal")"
+polybar -r paul &
+sleep 0.1

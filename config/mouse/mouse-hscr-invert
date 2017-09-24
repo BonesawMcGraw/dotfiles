@@ -1,0 +1,2 @@
+#!/bin/bash
+xinput --set-button-map 'Logitech MX Master' 1 2 3 4 5 7 6
